@@ -15,7 +15,7 @@ This is a project template to fork off into a new web application. It defines a 
 
 Yarn provides special SDK for VS Code to use the correct typescript, prettier, and eslint versions. This may need to be re-run on clone.
 
-```cmd
+```bash
 yarn dlx @yarnpkg/sdks vscode
 ```
 

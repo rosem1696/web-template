@@ -1,0 +1,19 @@
+{
+  "name": "web-template-shared",
+  "type": "module",
+  "private": true,
+  "main": "./dist/shared.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json --verbose",
+    "clean": "tsc --build tsconfig.json --clean"
+  },
+  "browser": {
+    "fs": false,
+    "path": false
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}

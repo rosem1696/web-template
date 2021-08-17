@@ -1,6 +1,6 @@
 # Web App Template
 
-This is a project template to fork off into a new web application. It defines a project skeleton for a simple monorepo containing a backend, a frontend, and a shared library, and the a base configuration for tooling (IDE, build, formatting, etc.). This version does not provide configuration for any frontend framework or library. See branches in this repository for more specific configurations.
+This is a project template to fork off into a new web application. It defines a project skeleton for a simple monorepo containing a backend, a frontend, and a shared library, with a base configuration for tooling (IDE, build, formatting, etc.). This version does not provide configuration for any frontend framework or library. See branches in this repository for more specific configurations.
 
 ## Tooling
 

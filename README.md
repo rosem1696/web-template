@@ -19,6 +19,11 @@ Yarn provides special SDK for VS Code to use the correct typescript, prettier, a
 yarn dlx @yarnpkg/sdks vscode
 ```
 
+## Future Improvements
+
+- Add ES Lint default configuration
+- Add additional branches for more specific configurations
+
 ## Tooling Blocked Enhancements
 
 The following are known improvements that may be possible on future tool updates.

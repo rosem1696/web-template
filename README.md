@@ -7,7 +7,7 @@ This is a project template to fork off into a new web application. It defines a 
 - Yarn - Version Manager
   - Using plug and play, zero installs, and workspaces features
 - Webpack - Build tool / Bundler
-  - Config file written in ts, which requires ts-node and ts-paths
+  - Config file written in ts, which requires ts-node and tsconfig-paths
 - VS Code - IDE
 - Prettier - Code Formatting
 
@@ -36,4 +36,4 @@ See [https://github.com/microsoft/TypeScript/issues/35290]
 
 ### ts-node and ESM
 
-ts-node does not support ESM import syntax. It is needed for writing webpack config in typescript
+ts-node does not support ESM import syntax. It is needed for writing webpack config in typescript. If this is fixed in the future, the webpack-config.tsconfig.json file could be removed as well as tsconfig-paths.

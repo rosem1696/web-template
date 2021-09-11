@@ -4,17 +4,21 @@
     "build": "TS_NODE_PROJECT=\"../../webpack-config.tsconfig.json\" webpack --config webpack.config.ts"
   },
   "dependencies": {
-    "web-template-shared": "workspace:*"
+    "web-template-shared": "workspace:packages/shared"
   },
   "devDependencies": {
-    "@types/node": "^16.6.1",
-    "eslint": "^7.31.0",
+    "@types/node": "^16.7.10",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.1.0",
+    "@types/webpack-env": "^1.16.2",
+    "eslint": "^7.32.0",
     "prettier": "^2.3.2",
     "ts-loader": "^9.2.5",
-    "ts-node": "^10.2.0",
-    "tsconfig-paths": "^3.10.1",
-    "typescript": "^4.3.5",
-    "webpack": "^5.50.0",
-    "webpack-cli": "^4.8.0"
+    "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
   }
 }

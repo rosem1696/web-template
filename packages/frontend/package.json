@@ -3,11 +3,27 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "web-template-shared": "workspace:*"
+    "web-template-shared": "workspace:packages/shared"
   },
   "devDependencies": {
-    "eslint": "^7.31.0",
+    "@types/node": "^16.7.10",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.1.0",
+    "@types/webpack-env": "^1.16.2",
+    "eslint": "^7.32.0",
     "prettier": "^2.3.2",
-    "typescript": "^4.3.5"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.1",
+    "ts-loader": "^9.2.5",
+    "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
   }
 }

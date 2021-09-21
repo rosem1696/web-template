@@ -1,5 +1,5 @@
 import { Example } from 'web-template-shared';
 
-let example: Example = { field: 'field' };
+let example: Example = { field: 'field', field2: 'field2' };
 
-console.log(example.field);
+console.log(JSON.stringify(example));

@@ -4,5 +4,6 @@
     "baseUrl": "src",
     "outDir": "dist"
   },
+  "references": [{ "path": "../shared" }],
   "include": ["src/**/*.ts"]
 }

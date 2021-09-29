@@ -18,11 +18,11 @@ const config: Configuration = {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts'],
+    extensions: ['.tsx', '.ts', '.jsx', '.js'],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'web-template-backend.bundle.js',
+    filename: 'web-template-frontend.bundle.js',
     clean: true,
   },
 };

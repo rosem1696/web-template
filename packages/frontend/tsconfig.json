@@ -2,7 +2,19 @@
   "extends": "../../base.tsconfig.json",
   "compilerOptions": {
     "baseUrl": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "lib": ["DOM"],
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": "\\.(c|sa|sc)ss$",
+          "classnameTransform": "camelCase"
+        }
+      }
+    ]
   },
+  "references": [{ "path": "../shared" }],
   "include": ["src/**/*.ts", "src/**/*.tsx"]
 }
